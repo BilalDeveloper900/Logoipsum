@@ -2,13 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Rubik', sans-serif;
 }
 
 body {
   overflow-x: hidden;
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif;
 }
 
 p {
@@ -34,26 +32,21 @@ header {
   background-blend-mode: multiply;
   background-color: rgba(9, 14, 36, 0.8549019608);
 }
-
 header nav {
   display: flex;
 }
-
 header nav ul {
   list-style: none;
 }
-
 header nav ul li {
   color: white;
   display: inline-flex;
   padding: 0px 12px;
 }
-
 header nav ul li a {
   text-decoration: none;
   color: white;
 }
-
 header .center {
   display: flex;
   height: 80vh;
@@ -64,7 +57,6 @@ header .center {
   flex-direction: column;
   color: white;
 }
-
 header h1 {
   font-size: 52px;
 }
@@ -72,7 +64,6 @@ header h1 {
 .container-2 {
   overflow-x: hidden;
 }
-
 .container-2 b {
   color: red;
 }
@@ -88,7 +79,6 @@ header h1 {
   background-size: cover;
   overflow-x: hidden;
 }
-
 .section-3 .row-3 {
   justify-content: center;
   align-items: center;
@@ -97,20 +87,16 @@ header h1 {
   display: flex;
   color: white;
 }
-
 .section-3 .row-3 h1 {
   padding: 5% 0%;
   color: white;
 }
-
 .section-3 .row-3 h4 {
   padding: 15px 0px;
 }
-
 .section-3 .row-3 p {
   color: white;
 }
-
 .section-3 .row-3 .icon {
   color: red;
   font-size: 50px;
@@ -125,7 +111,6 @@ header h1 {
   margin: auto;
   background: white;
 }
-
 .section-3 .row-3 .icon:hover {
   background: red;
   color: white;
@@ -136,7 +121,6 @@ header h1 {
   width: 100vw;
   padding: 4% 0%;
 }
-
 .container-4 #row-4 #row-4-1 {
   justify-content: center;
   align-items: center;
@@ -144,15 +128,12 @@ header h1 {
   display: flex;
   flex-direction: column;
 }
-
 .container-4 #row-4 #row-4-1 b {
   color: red;
 }
-
 .container-4 #row-4 #row-4-1 h1 {
   padding: 15px 0px;
 }
-
 .container-4 #row-4 .box2 {
   width: 350px;
   height: 350px;
@@ -166,21 +147,17 @@ header h1 {
   margin: auto;
   color: white;
 }
-
 .container-4 #row-4 .box2:hover {
   background: #FEEBE6;
   border: 2px dotted red;
   color: black;
 }
-
 .container-4 #row-4 .box2:hover p {
   color: black;
 }
-
 .container-4 #row-4 .box2 p {
   color: white;
 }
-
 .container-4 #row-4 .box2 .box-2 {
   color: rgb(255, 0, 0);
   font-size: 45px;
@@ -194,11 +171,9 @@ header h1 {
   text-align: center;
   display: flex;
 }
-
 .container-4 #row-4 .box2 .box-2 .box-text {
   color: rgb(255, 255, 255);
 }
-
 .container-4 #row-4 .box {
   width: 350px;
   height: 350px;
@@ -212,16 +187,13 @@ header h1 {
   border-radius: 5px;
   margin: auto;
 }
-
 .container-4 #row-4 .box:hover {
   color: white;
   background: red;
 }
-
 .container-4 #row-4 .box:hover p {
   color: white;
 }
-
 .container-4 #row-4 .box .box-1 {
   color: rgb(255, 0, 0);
   font-size: 40px;
@@ -235,7 +207,6 @@ header h1 {
   text-align: center;
   display: flex;
 }
-
 .container-4 #row-4 .box .box-1 .box-text {
   color: black;
 }
@@ -244,11 +215,9 @@ header h1 {
   padding: 70px 0px;
   padding-top: 130px;
 }
-
 #container-5 .p-1 {
   color: red;
 }
-
 #container-5 .slim-box {
   width: 250px;
   height: 50px;
@@ -256,13 +225,11 @@ header h1 {
   border-left: none;
   border-radius: 5px;
 }
-
 #container-5 .slim-box b {
   position: absolute;
   padding: 10px;
   padding-left: 33px;
 }
-
 #container-5 .slim-box .slim-icon {
   height: 50px;
   width: 50px;
@@ -272,11 +239,9 @@ header h1 {
   padding-top: 9px;
   padding-left: 15px;
 }
-
 #container-5 .slim-box .slim-icon b {
   font-size: 18px;
 }
-
 #container-5 .slim-box .slim-icon i {
   color: red;
 }
@@ -287,7 +252,6 @@ header h1 {
   background: #000D29;
   color: white;
 }
-
 .container-6 .mid {
   justify-content: center;
   align-items: center;
@@ -296,16 +260,13 @@ header h1 {
   flex-direction: column;
   height: 22vw;
 }
-
 .container-6 .mid p {
   font-size: 20px;
   color: white;
 }
-
 .container-6 .mid h2 {
   padding-top: 8px;
 }
-
 .container-6 .mid i {
   font-size: 45px;
   color: red;
@@ -315,11 +276,9 @@ header h1 {
   padding: 50px 0px;
   padding-bottom: 70px;
 }
-
 .container-7 img {
   mix-blend-mode: luminosity;
 }
-
 .container-7 .mid-1 {
   justify-content: center;
   align-items: center;
@@ -327,7 +286,6 @@ header h1 {
   display: flex;
   flex-direction: column;
 }
-
 .container-7 .mid-1 p {
   color: red;
 }
@@ -335,7 +293,6 @@ header h1 {
 .container-8 {
   padding-bottom: 80px;
 }
-
 .container-8 .mid-1 {
   justify-content: center;
   align-items: center;
@@ -344,18 +301,15 @@ header h1 {
   flex-direction: column;
   line-height: 0px;
 }
-
 .container-8 .mid-1 p {
   color: red;
 }
-
 .container-8 .consultant-1 {
   background-image: url(..//images/team-1.jpg);
   height: 350px;
   background-size: cover;
   width: 355px;
 }
-
 .container-8 .consultant-1 .team-1 {
   width: 315px;
   position: relative;
@@ -369,19 +323,16 @@ header h1 {
   align-items: center;
   text-align: center;
 }
-
 .container-8 .consultant-1 .team-1 P {
   color: RED;
   font-size: 14px;
 }
-
 .container-8 .consultant-2 {
   background-image: url(..//images/team-2.jpg);
   height: 350px;
   background-size: cover;
   width: 355px;
 }
-
 .container-8 .consultant-2 .team-1 {
   width: 315px;
   position: relative;
@@ -395,19 +346,16 @@ header h1 {
   align-items: center;
   text-align: center;
 }
-
 .container-8 .consultant-2 .team-1 P {
   color: RED;
   font-size: 14px;
 }
-
 .container-8 .consultant-3 {
   background-image: url(..//images/team-3.jpg);
   height: 350px;
   background-size: cover;
   width: 355px;
 }
-
 .container-8 .consultant-3 .team-1 {
   width: 315px;
   position: relative;
@@ -421,7 +369,6 @@ header h1 {
   align-items: center;
   text-align: center;
 }
-
 .container-8 .consultant-3 .team-1 P {
   color: RED;
   font-size: 14px;
@@ -435,11 +382,9 @@ header h1 {
   flex-direction: column;
   line-height: 0px;
 }
-
 .container-9 .mid-1 p {
   color: red;
 }
-
 .container-9 .question {
   width: 510px;
   height: 400px;
@@ -448,35 +393,29 @@ header h1 {
   padding-top: 40px;
   margin: auto;
 }
-
 .container-9 .question img {
   width: 50px;
   height: 50px;
   display: block;
 }
-
 .container-9 .question h6 {
   padding-top: 19px;
   font-size: 18px;
 }
-
 .container-9 .question p {
   font-size: 14px;
 }
-
 .container-9 .dot {
   width: 50%;
   margin: auto;
   text-align: center;
   justify-content: center;
 }
-
 .container-9 .dot i {
   font-size: 10px;
   padding: 0 3px;
   color: #FEEBE6;
 }
-
 .container-9 .dot .color {
   color: red;
 }
@@ -489,20 +428,16 @@ header h1 {
   flex-direction: column;
   line-height: 0px;
 }
-
 .container-10 .mid-1 p {
   color: red;
 }
-
 .container-10 .card {
   border-radius: 10px;
 }
-
 .container-10 .card img {
   border-top-right-radius: 9px;
   border-top-left-radius: 9px;
 }
-
 .container-10 .card .box-3 {
   color: rgb(255, 0, 0);
   font-size: 35px;
@@ -517,7 +452,6 @@ header h1 {
   margin: auto;
   display: flex;
 }
-
 .container-10 .card .box-4 {
   justify-content: center;
   align-items: center;
@@ -525,7 +459,6 @@ header h1 {
   display: flex;
   flex-direction: column;
 }
-
 .container-10 .card:hover {
   margin-top: -10px;
   transition-duration: 0.6s;
@@ -534,11 +467,9 @@ header h1 {
 .container-11 {
   background: #000D29;
 }
-
 .container-11 p {
   color: white;
 }
-
 .container-11 i {
   color: white;
   padding: 0 5px;
@@ -551,7 +482,10 @@ header h1 {
   line-height: 35px;
   font-size: 15px;
 }
-
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
 .footer ul li b {
   font-size: 18px;
 }
@@ -567,6 +501,4 @@ hr {
   width: 50%;
   text-align: center;
   line-height: 30px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
