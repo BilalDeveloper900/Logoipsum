@@ -5,14 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 
+
 }
 
 body {
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 p {
     color: rgb(96, 96, 96);
+    font-size: 15px;
 }
 
 .para {
@@ -73,6 +77,8 @@ header {
     b {
         color: red;
     }
+
+
 }
 
 .section-3 {
@@ -251,6 +257,7 @@ header {
         width: 250px;
         height: 50px;
         border: 1px solid silver;
+        border-left: none;
         border-radius: 5px;
 
 
@@ -542,15 +549,26 @@ header {
             color: white;
             line-height: 35px;
             font-size: 15px;
+
+            b {
+                // font-weight: 300;
+                font-size: 18px;
+            }
         }
     }
 
-    .last {
-        margin: auto;
-        padding-top: 0px;
-        color: white;
-        width: 50%;
-        text-align: center;
-        line-height: 30px;
-    }
+
+}
+
+hr {
+    border: 1px solid #aba6a4;
+}
+
+.last {
+    margin: auto;
+    padding-top: 0px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
 }
